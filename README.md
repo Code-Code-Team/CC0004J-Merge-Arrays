@@ -1,4 +1,4 @@
-#Welcome to my First Readme File 
+# Welcome to my First Readme File 
 
 --This is about ReversingWord
 ---This is about ReversingWord
@@ -17,7 +17,10 @@
 ----------------------- 
 
 
-< How it looks>
+< How it looks/>
  
 
 #### Forth Title
+
+
+@merhaba
