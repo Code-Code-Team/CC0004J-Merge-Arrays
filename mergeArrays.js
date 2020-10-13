@@ -20,7 +20,7 @@ function addToFirst(){
     if(firstInputElement.value != ''){
         firstArray.push(firstInputElement.value);
         firstInputElement.value = "";
-        firstArrayText.innerText = `FirstArray : ${firstArray.join(' ')}`;
+        firstArrayText.innerText = `FirstArray=> : ${firstArray.join(' ')}`;
     }
     firstInputElement.focus();
 }
@@ -28,7 +28,7 @@ function addToSecond(){
     if(secondInputElement.value != ''){
         secondArray.push(secondInputElement.value);
         secondInputElement.value = "";
-        secondArrayText.innerText = `SecondArray : ${secondArray.join(' ')}`;
+        secondArrayText.innerText = `SecondArray=> : ${secondArray.join(' ')}`;
     }
     secondInputElement.focus();
 }
@@ -56,8 +56,8 @@ resetButton.addEventListener('click',()=>{
 
 
 concatInputButton.addEventListener('click', () =>{
-    const mergedArray =(firstArray.concat(secondArray).sort().join(' '))
-    mergedArrayText.innerText = `MergedArray : ${mergedArray}`
+    const mergedArray =(firstArray.concat(secondArray).sort().join(' - '))
+    mergedArrayText.innerText = `MergedArray=> : ${mergedArray}`
    
 })
 

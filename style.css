@@ -7,6 +7,7 @@
     padding : 10;
     margin : 10;
     width: 60%;
+    border-radius: 10px;
 
 }
 
@@ -14,19 +15,27 @@
     padding : 10;
     margin : 10;
     width: 30%;
-
+    border-radius: 10px;
 }
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgba(255, 255, 255, 0.575);
+}
+
 
 .text{
     padding :10;
     margin : 10;
     border : 1px solid gray;
     display: block;
+    border-radius: 10px;
     
 }
 
 .mainContainer{
     width: 80%;
+    margin: auto;
 
 }
 
@@ -36,6 +45,7 @@
     flex-direction: row;
     padding: 10;
     margin:10;
+    border-radius: 20px;
     
     
 }
@@ -45,14 +55,17 @@
     flex-direction: row;
     padding:10;
     margin:10;
+    border-radius: 20px;
    
 }
 .concatContainer{
     background-color:  rgba(22, 22, 19, 0.24) ;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding:10;
     margin:10;
+    border-radius: 20px;
     
     
 }
