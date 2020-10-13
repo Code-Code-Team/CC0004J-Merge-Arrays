@@ -16,7 +16,7 @@
 ### Screen Shots of Project
 
 
-< How it looks !/>[Project 001 Snapshot](../CC0004J-Merge-Arrays/out.gif)
+< How it looks !/>[Project 001 Snapshot](CC0004J-Merge-Arrays/out.gif)
 
 
 ----------------------- 
