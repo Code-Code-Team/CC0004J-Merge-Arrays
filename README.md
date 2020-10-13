@@ -1,10 +1,6 @@
 # Prupose of This coding it the merge of two different arrays in one array
 
---This is about ReversingWord
----This is about ReversingWord
-----This is about ReversingWord
------This is about ReversingWord
-------This is about ReversingWord
+-This is about Merging Arrays
 
 ## Secont Title
 
