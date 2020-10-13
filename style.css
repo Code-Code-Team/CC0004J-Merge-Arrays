@@ -1,0 +1,58 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.input{
+    padding : 10;
+    margin : 10;
+    width: 60%;
+
+}
+
+.button{
+    padding : 10;
+    margin : 10;
+    width: 30%;
+
+}
+
+.text{
+    padding :10;
+    margin : 10;
+    border : 1px solid gray;
+    display: block;
+    
+}
+
+.mainContainer{
+    width: 80%;
+
+}
+
+.inputContainer1{
+    background-color: rgba(85, 85, 82, 0.24);
+
+    flex-direction: row;
+    padding: 10;
+    margin:10;
+    
+    
+}
+
+.inputContainer2{
+    background-color:  rgba(85, 85, 82, 0.24);
+    flex-direction: row;
+    padding:10;
+    margin:10;
+   
+}
+.concatContainer{
+    background-color:  rgba(22, 22, 19, 0.24) ;
+    flex-direction: column;
+    align-items: center;
+    
+    margin:10;
+    
+    
+}
