@@ -13,8 +13,8 @@ const mergedArrayText = document.querySelector('#mergedArrayText');
 
 
 
-const firstArray = [];
-const secondArray = [];
+let firstArray = [];
+let secondArray = [];
 
 function addToFirst(){
     if(firstInputElement.value != ''){
@@ -49,8 +49,14 @@ secondInputElement.addEventListener('keyup', (e) =>{
 
 //TODO : Reset button add
 resetButton.addEventListener('click',()=>{
-    firstArray = "";
-    secondArray = "";
+    firstArray = [];
+    firstArrayText.innerText = "First Array =>"
+    console.log("firstArray", firstArray)
+    secondArray = [];
+    secondArrayText.innerText = "Second Array =>"
+    console.log("secondArray", secondArray)
+    mergedArray = []
+    mergedArrayText.innerText = "Merged Array => "
 })
 
 
