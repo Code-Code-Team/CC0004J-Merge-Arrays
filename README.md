@@ -13,18 +13,15 @@
 -----------------------
 
 
-### Screen Shots of Project
+### Website Link of Project
+
+- ! [Website Link] (https://code-code-team.github.io/CC0004J-Merge-Arrays/)
+
+### ScreenShot of Merge Arrays
+
+- ![ScreenShot of mergeArrays](./images/out.gif)
 
 
-
-
-https://code-code-team.github.io/CC0004J-Merge-Arrays/
-
-
-<[ScreenShot](images/out.gif)/>
 ----------------------- 
 
-
- 
-
-Copyright
+Copyright belogs to Aydin
